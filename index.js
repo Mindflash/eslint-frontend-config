@@ -2,6 +2,7 @@
 
 module.exports = {
   extends: [
+    'mindflash',
     './rules/best-practices',
     './rules/ecma-script6',
     './rules/imports',
