@@ -129,7 +129,7 @@ module.exports = {
     // 'no-octal': 2,
 
     // prevents reassignment of function parameters
-    // 'no-param-reassign': 2,
+    'no-param-reassign': 0,
 
     // prevents use of deprecated __proto__ property should favor Object.getPrototypeOf instead
     // 'no-proto': 2,
