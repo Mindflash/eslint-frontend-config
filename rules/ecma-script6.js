@@ -49,7 +49,7 @@ module.exports = {
     // 'no-useless-computed-key': 2,
 
     // prevents unnecessary constructors
-    // 'no-useless-constructor': 2,
+    'no-useless-constructor': 0,
 
     // prevents useless renaming of references in import, export, and destructuring statements
     // 'no-useless-rename': 2,

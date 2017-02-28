@@ -36,7 +36,7 @@ module.exports = {
     'no-unused-vars': 0,
 
     // prohibit variable and function use before their definition
-    // 'no-use-before-define': 2
+    'no-use-before-define': 0
   }
 }
 
