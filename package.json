@@ -1,0 +1,26 @@
+{
+  "name": "eslint-frontend-config-mindflash",
+  "version": "1.0.0",
+  "description": "shared frontend eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mindflash/eslint-frontend-config.git"
+  },
+  "author": "mindflash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mindflash/eslint-frontend-config/issues"
+  },
+  "homepage": "https://github.com/Mindflash/eslint-frontend-config#readme",
+  "dependencies": {
+    "mindflash": "git+ssh://git@github.com:Mindflash/eslint-config.git#main"
+  },
+  "peerDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-plugin-import": "^2.1.0"
+  }
+}
