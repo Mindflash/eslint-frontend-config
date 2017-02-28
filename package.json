@@ -1,5 +1,5 @@
 {
-  "name": "eslint-frontend-config-mindflash",
+  "name": "eslint-config-mindflash-frontend",
   "version": "1.0.0",
   "description": "shared frontend eslint config",
   "main": "index.js",
