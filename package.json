@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Mindflash/eslint-frontend-config#readme",
   "dependencies": {
-    "mindflash": "git+ssh://git@github.com:Mindflash/eslint-config.git#main"
+    "eslint-config-mindflash": "git+ssh://git@github.com:Mindflash/eslint-config.git#main"
   },
   "peerDependencies": {
     "eslint": "^3.9.1",
