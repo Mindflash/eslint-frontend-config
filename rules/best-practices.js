@@ -189,7 +189,7 @@ module.exports = {
     // 'yoda': [2, "never", {"exceptRange": true}],
 
     // prevents this key word from being used outside of classes or class like objects
-    // 'no-invalid-this': 2
+    'no-invalid-this': 0
   }
 };
 
