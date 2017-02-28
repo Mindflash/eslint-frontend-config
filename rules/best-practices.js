@@ -45,7 +45,7 @@ module.exports = {
     // 'no-caller': 2,
 
     // prevents access to uninitalized lexical bindings as well as accessing hoisted functions across case clauses
-    // 'no-case-declarations': 2,
+    'no-case-declarations': 0,
 
     // requires regex literals to escape division operators
     // 'no-div-regex': 2,
