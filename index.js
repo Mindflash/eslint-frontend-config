@@ -2,7 +2,7 @@
 
 module.exports = {
   extends: [
-    'mindflash',
+    'eslint-config-mindflash',
     './rules/best-practices',
     './rules/ecma-script6',
     './rules/imports',
