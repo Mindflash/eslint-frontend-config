@@ -85,13 +85,13 @@ module.exports = {
     // 'max-depth': [2, {'max': 4}],
 
     // enforce a maximum line length
-    'max-len': 0,
+    'max-len': {"code": 80},
 
     // enforce a maximum file length
-    // 'max-lines': [1, 200],
+    'max-lines': [1, 300],
 
     // enforce max nested callbacks
-    // 'max-nested-callbacks': [2, {'max': 5}],
+    'max-nested-callbacks': [2, {'max': 5}],
 
     // enforce maximum number of parameters in function definitions
     'max-params': [1, {'max': 4}],
@@ -100,7 +100,7 @@ module.exports = {
     'max-statements-per-line': [2, {'max': 20}],
 
     // enforce max number of statements allowed in function body
-    // 'max-statements': [1, {'max': 10}],
+    'max-statements': [1, {'max': 10}],
 
     // enforce consistent use of new lines with ternary expressions
     // 'multiline-ternary': 0,
@@ -130,7 +130,7 @@ module.exports = {
     // 'no-continue': 2,
 
     // prevent inline comments with code
-    // 'no-inline-comments': 2,
+    'no-inline-comments': 2,
 
     // no lonely if statements, encourages correct application of else if statements
     // 'no-lonely-if': 2,
@@ -171,7 +171,7 @@ module.exports = {
     // 'no-ternary': 0,
 
     // prevent trailing whitespace at the end of lines
-    // 'no-trailing-spaces': 2,
+    'no-trailing-spaces': 2,
 
     // prevent underscore dangle i.e let foo_ = 'bar';
     'no-underscore-dangle': 0,
@@ -223,7 +223,7 @@ module.exports = {
     // 'semi-spacing': [2, {'before': false, 'after': true}],
 
     // enforce use of semicolons
-    // 'semi': [2, 'always'],
+    'semi': [2, 'always'],
 
     // require object keys to be alphabetized
     // 'sort-keys': 0,
