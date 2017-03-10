@@ -33,10 +33,10 @@ module.exports = {
     'dot-notation': 0,
 
     // stops type coercion from being a thing
-    // 'eqeqeq': [2, 'always'],
+    'eqeqeq': [2, 'always'],
 
     // guards for in loops, for in loops will iterate up the prototype chain possibly causing unwanted behaviour.
-    // 'guard-for-in': 1,
+    'guard-for-in': 1,
 
     // prohibits use of alert, confirm, and prompt
     'no-alert': 1,
@@ -147,7 +147,7 @@ module.exports = {
     'no-self-assign': [2, {props: true}],
 
     // prevents self comparison
-    // 'no-self-compare': 2,
+    'no-self-compare': 2,
 
     // prevents potentially confusing use of comma operators
     // 'no-sequences': 2,
@@ -159,19 +159,19 @@ module.exports = {
     // 'no-unmodified-loop-condition': 1,
 
     // unused expressions which have no affect on the state of the program indicate a logic error
-    // 'no-unused-expressions': 2,
+    'no-unused-expressions': 2,
 
     // no unused labels
     // 'no-unused-labels': 2,
 
     // stops confusing call() and apply() usage
-    // 'no-useless-call': 2,
+    'no-useless-call': 2,
 
     // prevents confusing string concatenation
-    // 'no-useless-concat': 2,
+    'no-useless-concat': 2,
 
     // prevents useless escape chars
-    // 'no-useless-escape': 2,
+    'no-useless-escape': 2,
 
     // prevents usage of void operator as it isn't necessary anymore
     // 'no-void': 2,
@@ -183,7 +183,7 @@ module.exports = {
     // 'no-with': 2,
 
     // forces variable declarations to be at the top of their scope.
-    // 'vars-on-top': 2,
+    'vars-on-top': 2,
 
     // prevents hard to read equality checks
     // 'yoda': [2, "never", {"exceptRange": true}],
