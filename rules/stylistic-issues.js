@@ -94,7 +94,7 @@ module.exports = {
     // 'max-nested-callbacks': [2, {'max': 5}],
 
     // enforce maximum number of parameters in function definitions
-    'max-params': [1, {'max': 4}],
+    'max-params': 0,
 
     // enforce max number of statements per line
     'max-statements-per-line': [2, {'max': 20}],
