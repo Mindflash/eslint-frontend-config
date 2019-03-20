@@ -16,7 +16,7 @@ phases:
     commands:
       # install dependencies
       - npm install
-      - npm version -no-git-tag-version $CODEBUILD_SOURCE_VERSION
+      - npm version -no-git-tag-version $CODEBUILD_SOURCE_VERSION --allow-same-version
 
 
   build:
